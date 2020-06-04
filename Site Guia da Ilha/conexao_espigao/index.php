@@ -29,12 +29,13 @@
         bar: {
           label: 'B'
         }
-      };
+      };               
+
 
         function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: new google.maps.LatLng(-2.487653, -44.238329),
-          zoom: 14
+          center: new google.maps.LatLng(-2.503421, -44.317528),
+          zoom: 17
         });
         var infoWindow = new google.maps.InfoWindow;
 

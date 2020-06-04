@@ -11,7 +11,7 @@ function parseToXML($htmlStr){
 }
 
 // selecionando as informações da tabela do Banco de dados
-$result_markers = "SELECT *FROM litoranea where type = ('Rampa')";
+$result_markers = "SELECT *FROM espigao where type = ('Rampa')";
 $resultado_markers = mysqli_query($conn, $result_markers);
 
 header("Content-type: text/xml");
